@@ -1,0 +1,90 @@
+.introducao_bg{
+    background-color: #000;
+    height: 600px;
+    display: grid;
+    align-items: center;
+}
+
+.introducao_container{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px;
+    justify-content: center;
+    margin: 0px auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.introducao_texto h1{
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.introducao_texto h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #C2A886 0%, #694314 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.introducao_texto p{
+    font-size: 16px;
+    font-weight: 270;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    max-width: 400px;
+}
+
+.introducao_texto a{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 200px;
+    padding: 5px 40px;
+    color: #000;
+    background: linear-gradient(#C2A886, #694314);
+    border-radius: 20px;
+}
+
+.introducao_texto a:hover{
+    background: linear-gradient( #D0A256, #765217)
+
+}
+#coffe_decoration{
+    position: relative;
+}
+#coffe_decoration::after{
+    content: '';
+    background-image: url("../img/coffe_introducao_decoration.svg");
+    position: absolute;
+    width: 348px;
+    height: 194px;
+    top: -150px;
+    left: 250px;
+}
+
+@media (max-width: 800px){
+    .introducao_container{
+        grid-template-columns: 1fr;
+    }
+    .introducao_container img{
+        display: none;
+    }
+    #coffe_decoration::after{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    
+    .introducao_texto h1{
+        font-size: 40px;
+    }
+    .introducao_texto p{
+        font-size: 14px;
+    }
+}

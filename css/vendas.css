@@ -1,0 +1,126 @@
+.store_bg{
+    background-color: #050506;
+    height: 854px;
+}
+
+.store_container{
+    padding: 40px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.store_texto{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.store_metados ul{
+    display: flex;
+    justify-self: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.store_metados a{
+    color: #A08F72;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.store_metados a:after{
+    display: block;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #E2D0B2;
+    border-radius: 1px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.store_metados a:hover::after{
+    width: 50%;
+}
+.store_metados{
+    display: flex;
+    gap: 30px;
+}
+
+.store_vendas{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.store_texto h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.store_vendas img{
+    width: 200px;
+    height: 260px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.store_destaques h2{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.store_stars, h2{
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.store_stars h3,span{
+    color: #F1C644;
+    font-weight: 400;
+    font-size: 15px;
+}
+.store_compra{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.store_compra a{
+    padding: 5px;
+    background: linear-gradient( #794D05, #423013);
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.store_compra a:hover{
+    background: linear-gradient( #D0A256, #765217)
+}
+.store_decoration{
+    position: relative;
+}
+.store_decoration::after{
+    content: '';
+    width: 624px;
+    height: 2px;
+    background: #E2D0B2;
+    position: absolute;
+    top: 550px;
+    left: -900px;
+    border-radius: 1px;
+    
+}
+
+@media (max-width: 1200px) {
+    .store_bg{
+        height: auto;
+    }
+    .store_decoration{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .store_metados a{
+        font-size: 13px;
+        text-align: center;
+    }
+}

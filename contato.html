@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Coffe - Contato</title>
+</head>
+<body>
+    <header class="header_bg">
+        <div class="header">
+                <a href="./">
+                    <img src="./img/logo.svg" alt="Coffe">
+                </a>
+                <nav aria-label="primaria">
+                    <ul class="header_menu">
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="./kitcoffe.html">KIT COFFE</a></li>
+                        <li><a href="#contato">CONTATO</a></li>
+                    </ul>
+                </nav>
+            <div class="header_users">
+            <a href="/"><img src="./img/carrinho.svg" alt=""></a>
+            <a href="/"><img src="./img/user.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <main aria-label="Contato a empresa." id="contatos">
+        <div class="bg-zinc-950 p-5">
+            <div class="max-width-x m-auto-0">
+                <p class="text-neutral-700 text-lg max-width-x m-auto-0 ">RESPOSTAS EM ATÉ 24H</p>
+                <h1 class=" text-white text-4xl font-bold">nosso contatos <span class="text-2xl font-bold text-red-900">.</span></h1>
+            </div>
+        </div>
+        <div class="contato-container  max-width-x m-auto-0">
+            <section aria-label="Endereço" class="contato-dados">
+                <h2 class="text-zinc-500">Loja Online</h2>
+                <div class="contato-endereco text-base">
+                    <p class=" text-zinc-500">Rua Ali Perto, 35</p>
+                    <p class=" text-zinc-500">Rio Grande do Sul - RS</p>
+                    <p class=" text-zinc-500">Brasil - Terra - Vida Láctea</p>
+                </div>
+                <address class="contato-meios text-base text-zinc-500">
+                    <a href="mailto:coffe@contato.com">coffe@contato.com</a>
+                    <a href="mailto:assistencia@coffe.com">assistencia@coffe.com</a>
+                    <a href="tel:+55 55 99999-9999">+55 55 99999-9999</a>
+                </address>
+                <div class="contato-redes">
+                    <a href="/"><img src="./img/instagram-p.svg" alt="logo instagram"></a>
+                    <a href="/"><img src="./img/facebook-p.svg" alt="logo facebook"></a>
+                    <a href="/"><img src="./img/youtube-p.svg" alt="logo youtube"></a>
+                </div>
+                
+            </section>
+                <section aria-label="Formulário" class="contato-formulario">
+                    <form class="form" action="./contato.html">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="telefone" id="telefone" name="telefone" placeholder="(55) 9999-9999">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="contato@email.com">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea rows="5" type="mensagem" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+                    </div>
+                    <button class="button">Enviar Mensagem</button>
+                </form>
+                </section>
+
+        </div>
+    </main>
+
+    <footer id="contato" class="contact_bg" aria-label="entre em contato com nosco.">
+        <div class="contact_container">
+        <img src="./img/logo.svg" alt="Coffe">
+        <div class="contact_contato">
+            <h1>Contato</h1>
+            <ul class="contact_emails">
+                    <li><a href="tel:+555599999999">+55 99999-9999</a></li>
+                    <li><a href="mailto:contato@thiago.com">contato@thiago.com</a></li>
+                <div class="contact_rua">
+                    <li>Rua Avenida Marechal 42 - Borges</li>
+                    <li>Rio Grande do Sul</li>
+                </div>
+                <nav class="contact_logos">
+                    <a href="/"><img src="./img/instagram.svg" alt="logo instagram"></a>
+                    <a href="/"><img src="./img/facebook.svg" alt="logo facebook"></a>
+                    <a href="/"><img src="./img/youtube.svg" alt="logo youtube"></a>
+                </nav>
+            </ul>
+        </div>
+        <div class="contact_informacoes">
+            <h1>Informações</h1>
+            <nav>
+                <ul class="contact_termos">
+                    <li><a href="">Termos de Condições</a></li>
+                    <li><a href="">Preparo do Café</a></li>
+                    <li><a href="">Loja</a></li>
+                    <li><a href="">Assinatura</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact_direitos">
+            <p>Thiago Fontoura c Alguns direitos reservados.</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

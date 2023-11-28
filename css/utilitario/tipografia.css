@@ -1,0 +1,48 @@
+.font-20-whei-700{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.font-10px-wei-300{
+    font-size: 10px;
+    font-weight: 300;
+    color: #000;
+}
+
+.font-36px{
+    font-size: 36px;
+}
+
+.p-color-27{
+    color: #272020;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 20px;
+    max-width: 1200px;
+}
+.p-20px{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p-20pxw800{
+    font-size: 20px;
+    font-weight: 800;
+}
+.span-48{
+    font-size: 42px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.p-10px{
+    color: #000;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.strike{
+    text-decoration-line: line-through;
+}

@@ -1,0 +1,20 @@
+@import './header.css';
+@import './introducao.css';
+@import './global.css';
+@import './categorias.css';
+@import './vendas.css';
+@import './contato.css';
+
+/*UTILITARIOS CSS*/
+
+@import '../css/utilitario/componente.css';
+@import '../css/utilitario/tipografia.css';
+@import '../css/utilitario/color-bg.css';
+
+/*KITCOFFE CSS*/
+
+@import './kitcoffe/banner.css';
+
+/*CONTATO CSS*/
+@import './contato/contato.css';
+@import './contato/formularios.css';

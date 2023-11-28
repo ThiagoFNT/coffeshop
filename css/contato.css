@@ -1,0 +1,77 @@
+.contact_bg{
+    background-color: #060607;
+}
+.contact_container img{
+    width: 43px;
+    height: 43px;
+}
+.contact_container{
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.contact_rua, .contact_logos, .contact_emails{
+    margin-top: 20px;
+}
+.contact_logos{
+    display: flex;
+    gap: 40px;
+    border-radius: 90px;
+}
+
+.contact_logos a:hover{
+    opacity: 0.5;
+}
+.contact_termosm, li{
+    margin-top: 10px;
+}
+
+.contact_container p, a, li{
+   color: #BDBDBD;
+}
+
+.contact_container a:hover{
+    color: #fff;
+}
+
+.contact_termos a{
+    color: #fff;
+}
+
+.contact_termos a:hover{
+    color: #BDBDBD;
+}
+.contact_rua{
+    border-top: 2px solid #fff;
+    width: 300px;
+}
+
+.contact_direitos{
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 70px;
+}
+
+@media (max-width: 800px){
+    .contact_rua{
+        width: 200px;
+    }
+    .contact_container img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media (max-width: 600px){
+
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 50px;
+        justify-items: start;
+    }
+}

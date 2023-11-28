@@ -1,0 +1,55 @@
+.banner_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.comprar_bg{
+    box-shadow: inset 0 -90px #050506;
+}
+.banner_cappu{
+    margin-top: 20px;
+    gap: 35px;
+    max-width: 1200px;
+}
+.banner_cappu img:hover{
+    scale: 1.1;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.banner_reserva{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.banner_reserva h2{
+    font-weight: 600;
+}
+
+.banner-button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: linear-gradient( #AF3E3E, #761B1B);
+    
+}
+
+.banner-button:hover{
+    background: linear-gradient(#BF1414, #7A0707);;
+}
+
+.comprar_aviso{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 2px;
+    background: #FFF;
+    width: 220px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 2px 0px rgba(0, 0, 0, 0.09), 0px 5px 3px 0px rgba(0, 0, 0, 0.05), 0px 9px 4px 0px rgba(0, 0, 0, 0.01), 0px 14px 4px 0px rgba(0, 0, 0, 0.00);
+    padding: 2px 4px;
+    
+}
+
