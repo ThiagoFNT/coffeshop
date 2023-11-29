@@ -1,6 +1,6 @@
 #contatos{
     background: linear-gradient(#09090B 400px, #F6F6F6 0px);
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 .contato-redes img{
     width: 43px;
@@ -78,6 +78,7 @@
     .contato-dados,
     .contato-formulario{
         padding-left: 30px;
+        margin-bottom: 0px;
     }
     .contato-dados{
         border-radius: 5px 5px 0 0;

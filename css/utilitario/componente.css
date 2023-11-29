@@ -105,7 +105,8 @@
     padding: 15px 30px;
     border-radius: 10px;
     background: linear-gradient( #AF3E3E, #761B1B);
-    
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 2px 0px rgba(0, 0, 0, 0.09), 0px 4px 3px 0px rgba(0, 0, 0, 0.05), 0px 8px 3px 0px rgba(0, 0, 0, 0.01), 0px 12px 3px 0px rgba(0, 0, 0, 0.00);
+    cursor: pointer;
 }
 
 .button:hover{

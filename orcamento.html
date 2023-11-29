@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Coffe - Orçamento</title>
+</head>
+<body id="orcamento">
+    <header class="header_bg">
+        <div class="header">
+                <a href="./">
+                    <img src="./img/logo.svg" alt="Coffe">
+                </a>
+                <nav aria-label="primaria">
+                    <ul class="header_menu">
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="#kitcoffe">KIT COFFE</a></li>
+                        <li><a href="./contato.html">CONTATO</a></li>
+                    </ul>
+                </nav>
+            <div class="header_users">
+            <a href="/"><img src="./img/carrinho.svg" alt=""></a>
+            <a href="/"><img src="./img/user.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <main aria-label="Contato a empresa." id="orcamento">
+        <div class="bg-zinc-950 p-5">
+            <div class="max-width-x m-auto-0">
+                <p class="text-neutral-700 text-lg max-width-x m-auto-0 ">RESPOSTAS EM ATÉ 24H</p>
+                <h1 class=" text-white text-4xl font-bold">nosso contatos <span class="text-2xl font-bold text-red-900">.</span></h1>
+            </div>
+        </div>
+
+        <form class="orcamento max-width-x m-auto-0" action="./">
+            <div class="orcamento-produto text-white">
+                <h2 class="text-white">Coffe ou Seguro?</h2>
+
+                <input type="radio" name="tipo" value="coffe" id="coffe">
+                <label for="coffe">Coffe</label>
+
+                <input type="radio" name="tipo" value="seguro" id="seguro">
+                <label for="seguro">Seguro</label>
+
+                <div class="orcamento-conteudo" id="orcamento-coffe">
+                    <h2 class="text-2x1 text-slate-300">Escolha o seu (CAFÉ)</h2>
+
+                    <input type="radio" name="produto" value="cappu" id="cappu">
+                    <label for="cappu">Capuccino <span>R$ 9,00</span></label>
+
+                        <div class="orcamento-detalhes">
+                            <ul class="text-sm text-slate-300">
+                                <li><img class="w-10" src="./img/icon-orcamento/xicara.svg" alt="">Aroma irresistível</li>
+                                <li><img class="w-10" src="./img/icon-orcamento/grao_coffe.svg" alt="">Variedade de preparo</li>
+                                <li><img class="w-10" src="./img/icon-orcamento/gosto.svg" alt="">Sabor equilibrado</li>
+                                <li><img class="w-10" src="./img/icon-orcamento/jarra.svg" alt="">Textura cremosa</li>
+                            </ul>
+                            <img src="./img/icon-orcamento/cappuccino-img.jpg" alt="café cappuccino">
+                        </div>
+
+                    <input type="radio" name="produto" value="expresso" id="expresso">
+                    <label for="expresso">Expresso <span>R$ 6,00</span></label>
+
+
+                    <div class="orcamento-detalhes">
+                        <ul class="text-sm text-slate-300">
+                            <li><img class="w-10" src="./img/icon-orcamento/xicara.svg" alt="">Aroma Intenso</li>
+                            <li><img class="w-10" src="./img/icon-orcamento/grao_coffe.svg" alt="">Crema Aveludada</li>
+                            <li><img class="w-10" src="./img/icon-orcamento/gosto.svg" alt="">Sabor Robusto</li>
+                            <li><img class="w-10" src="./img/icon-orcamento/jarra.svg" alt="">Café Expresso Gelado</li>
+                        </ul>
+                        <img src="./img/icon-orcamento/coffe-expresso.jpg" alt="café cappuccino">
+                    </div>
+
+
+                    <input type="radio" name="produto" value="alemao" id="alemao">
+                    <label for="alemao">Café Alemão <span>R$ 15,00</span></label>
+
+                    <div class="orcamento-detalhes">
+                        <ul class="text-sm text-slate-300">
+                            <li><img class="w-10" src="./img/icon-orcamento/xicara.svg" alt="">Aroma irresistível</li>
+                            <li><img class="w-10" src="./img/icon-orcamento/grao_coffe.svg" alt="">Variedade de preparo</li>
+                            <li><img class="w-10" src="./img/icon-orcamento/gosto.svg" alt="">Bolos e Sobremesas Deliciosos</li>
+                            <li><img class="w-10" src="./img/icon-orcamento/jarra.svg" alt="">Textura cremosa</li>
+                        </ul>
+                        <img src="./img/icon-orcamento/coffe-alema.jpg" alt="café cappuccino">
+                    </div>
+
+                </div>
+
+                <div class="orcamento-conteudo" id="orcamento-seguro">
+                    <h2 class="text-2x1 text-slate-300">Escolha o plano</h2>
+
+                    <input type="radio" name="produto" value="moto" id="moto">
+                    <label for="moto">Via Moto <span>R$ 2,00</span></label>
+
+                    <input type="radio" name="produto" value="carro" id="carro">
+                    <label for="carro">Via Carro <span>R$ 5,00</span></label>
+                </div>
+            </div>
+            <div class="orcamento-dados form ">
+                <h2 class="text-base text-zinc-500 col-2">dados pessoais</h2>
+                <div class="text-black">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+                </div>
+                <div class="text-black">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu sobrenome">
+                </div>
+                <div class="text-black">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="00.000.000-00">
+                </div>
+                <div class="text-black">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <h2 class="text-base text-zinc-500 col-2">Entrega</h2>
+                <div class="text-black">
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" name="cep">
+                </div>
+                <div class="text-black">
+                    <label for="numero">Numero</label>
+                    <input type="text" id="numero" name="numero">
+                </div>
+                <div class="text-black">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" name="bairro">
+                </div>
+                <div class="text-black">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+                <div class="text-black">
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado">
+                </div>
+                <button class="button col-2">Solicitar Orçamento</button>
+            </div>
+        </form>
+    </main>
+
+    <footer id="contato" class="contact_bg" aria-label="entre em contato com nosco.">
+        <div class="contact_container">
+        <img src="./img/logo.svg" alt="Coffe">
+        <div class="contact_contato">
+            <h1>Contato</h1>
+            <ul class="contact_emails">
+                    <li><a href="tel:+555599999999">+55 99999-9999</a></li>
+                    <li><a href="mailto:contato@thiago.com">contato@thiago.com</a></li>
+                <div class="contact_rua">
+                    <li>Rua Avenida Marechal 42 - Borges</li>
+                    <li>Rio Grande do Sul</li>
+                </div>
+                <nav class="contact_logos">
+                    <a href="/"><img src="./img/instagram.svg" alt="logo instagram"></a>
+                    <a href="/"><img src="./img/facebook.svg" alt="logo facebook"></a>
+                    <a href="/"><img src="./img/youtube.svg" alt="logo youtube"></a>
+                </nav>
+            </ul>
+        </div>
+        <div class="contact_informacoes">
+            <h1>Informações</h1>
+            <nav>
+                <ul class="contact_termos">
+                    <li><a href="">Termos de Condições</a></li>
+                    <li><a href="">Preparo do Café</a></li>
+                    <li><a href="">Loja</a></li>
+                    <li><a href="">Assinatura</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact_direitos">
+            <p>Thiago Fontoura c Alguns direitos reservados.</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
